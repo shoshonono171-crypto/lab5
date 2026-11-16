@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #000;
+  display: block;
+}
+
+.comments-section {
+  max-width: 540px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.comments-section h2 {
+  margin-bottom: 12px;
+}
+
+.comment-form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.comment-form input {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 2px solid #222;
+  border-radius: 8px;
+  outline: none;
+}
+
+.comment-form button {
+  padding: 10px 20px;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background: #1565c0;
+}
+
+.comment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #1976d2;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bubble {
+  background: #f0f0f0;
+  padding: 8px 14px;
+  border-radius: 10px;
+  min-width: 120px;
+}
+
+.author {
+  font-size: 13px;
+}
+
+.text {
+  margin: 4px 0 8px;
+  font-size: 14px;
+}
+
+.like-btn {
+  background: #fdf0f0;
+  border: 1px solid #f3d3d3;
+  border-radius: 12px;
+  padding: 1px 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.heart {
+  color: #d32f2f;
+}
